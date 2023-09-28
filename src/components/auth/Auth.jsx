@@ -18,7 +18,7 @@ function Auth () {
                 <p className='auth__text'>Пароль</p>
                 <input  className='auth__password' name='password' type='password'/>
             </label>
-            <button  className='auth__buttonInput'>Вход</button>
+            <button  className='auth__button'>Вход</button>
         </form>
     </section>
   )
