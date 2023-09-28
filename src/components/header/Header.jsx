@@ -16,8 +16,6 @@ function Header () {
           <Exit  className='header__buttonExit' onClick={()=>{dispatch(quit)}}/>
         </div>
       }
-      
-      
     </header>
   )
 }
