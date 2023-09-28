@@ -12,11 +12,13 @@ const authSlice = createSlice({
     error: null,
   },
   reducers: {
-
+    quit (state) {
+      state.loggedIn = false
+    }
   },
   extraReducers: {
 
   },
 });
-
+export const {quit} = authSlice.actions;
 export default authSlice.reducer;

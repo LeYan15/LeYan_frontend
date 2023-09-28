@@ -1,0 +1,48 @@
+.auth__form {
+    max-width: 292px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.auth__heading {
+    margin: 0;
+    color: #545454;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.auth__text {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.auth__email, .auth__password {
+    width: calc(100% - 24px - 2px);
+    height: calc(40px - 10px - 2px);
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #AFACAB;
+    background: #F4F4F4;
+}
+/* .auth__password {
+    border-radius: 10px;
+    border: 1px solid #AFACAB;
+    background: #F4F4F4;
+} */
+.auth__buttonInput {
+    height: 62px;
+    color: #000000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
