@@ -5,6 +5,7 @@ function Route2 () {
   return (
     <section className='route1'>
       <h2>Route2</h2>
+
       <button onClick={()=>{navigate(-1)}}>назад</button>
     </section>
   )
