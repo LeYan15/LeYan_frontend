@@ -5,6 +5,7 @@ import request from './../../images/Frame 633.svg'
 import graph from './../../images/Frame 634.svg'
 import TableSale from "../TableSale/TableSale.jsx";
 import TableRequest from "../TableHeader/TableRequest.jsx";
+import './main.css'
 function Main () {
   //  const navigate = useNavigate();
   const [buttonsChoose, setButtonsChoose] = useState("")
@@ -45,9 +46,11 @@ function Main () {
           <img className='' src={graph} alt="альтернативный текст"/>
         </button>
       </nav>
+      <div className='main__table'>
       {(buttonsChoose === "") && <TableSale/>}
 
       {(buttonsChoose === "request") && <TableRequest/>}
+      </div>
     </main>
   );
 }

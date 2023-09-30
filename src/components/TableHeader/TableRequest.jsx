@@ -1,5 +1,5 @@
 import './TableRequest.css'
-import TableSaleRow from "../TableSaleRow/TableSaleRow.jsx";
+import TableRequestRow from "../TableRequestRow/TableRequestRow.jsx";
 
 function TableRequest () {
   return (
@@ -20,7 +20,11 @@ function TableRequest () {
           </tr>
           </thead>
           <tbody>
-
+<TableRequestRow/>
+<TableRequestRow/>
+<TableRequestRow/>
+<TableRequestRow/>
+<TableRequestRow/>
 
           </tbody>
         </table>
