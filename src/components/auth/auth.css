@@ -1,6 +1,7 @@
 .auth__form {
     max-width: 292px;
     margin: 0 auto;
+    margin-top: 221px;
     display: flex;
     flex-direction: column;
     gap: 36px;

@@ -13,12 +13,15 @@ const authSlice = createSlice({
   },
   reducers: {
     quit (state) {
-      state.loggedIn = false
-    }
+      state.loggedIn = false;
+    },
+    authentication (state) {
+      state.loggedIn = true;
+    },
   },
   extraReducers: {
 
   },
 });
-export const {quit} = authSlice.actions;
+export const {quit, authentication} = authSlice.actions;
 export default authSlice.reducer;

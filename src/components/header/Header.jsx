@@ -4,12 +4,12 @@ import {quit} from '../../store/authSlice'
 
 function Header () {
   const dispatch = useDispatch();
-  const { logedIn } = useSelector(state=>state.auth);
+  const { loggedIn } = useSelector(state=>state.auth);
 
   return (
     <header className='header'>
       <h1 className='header__heading'>Лента</h1>
-      {logedIn && 
+      {loggedIn && 
         <div className='header__content'>
           <p className='header__date'>{new Date().toLocaleDateString()}</p>
           <p className='header__name'>Андреев Александр</p>

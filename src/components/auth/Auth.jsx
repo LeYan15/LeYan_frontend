@@ -1,14 +1,22 @@
-// import { useDispatch, useSelector } from 'react-redux';
-// import Exit from './Exit'
-// import {quit} from '../../store/authSlice'
+import { useDispatch } from 'react-redux';
+import {authentication} from '../../store/authSlice'
 
 function Auth () {
-//   const dispatch = useDispatch();
-//   const { logedIn } = useSelector(state=>state.auth);
+    const dispatch = useDispatch();
+    
+    const handleAuth = (e) => {
+        e.preventDefault();
+        if (e.target[0].value === 'a@a.a' && e.target[1].value === 'a') {
+            dispatch(authentication());
+        } else {
+            e.target[0].value = '';
+            e.target[1].value = '';
+        }
+    }
 
   return (
     <section className='auth'>
-        <form className='auth__form'>
+        <form className='auth__form' onSubmit={(e)=>{handleAuth(e)}}>
             <h2 className='auth__heading'>Вход в систему</h2>
             <label>
                 <p className='auth__text'>Email</p>

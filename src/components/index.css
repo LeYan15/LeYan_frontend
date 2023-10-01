@@ -4,5 +4,8 @@
 
 @import url(/src/components/auth/auth.css);
 @import url(/src/components/header/header.css);
+@import url(/src/components/main/main.css);
+@import url(/src/components/forecast/forecast.css);
+@import url(/src/components/forecastQuality/forecastQuality.css);
 
 @import url(/src/components/noRoute/noRoute.css);
