@@ -3,5 +3,18 @@ th, td {
   padding: 10px;
 }
 th{
-  background-color: #667085;
+  background-color: rgba(229, 229, 229, 1);
+}
+.table__button{
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+.table__box{
+  display: flex;
+  align-items: center
+}
+.table__button:hover{
+  opacity: 0.5;
+  cursor: pointer;
 }
