@@ -7,6 +7,7 @@ import NoRoute from '../noRoute/NoRoute'
 import Header from '../header/Header';
 import Main from '../main/Main';
 import Auth from '../auth/Auth';
+import TableSale from "../TableSale/TableSale.jsx";
 
 function App() {
   const navigate =useNavigate();
