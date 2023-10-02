@@ -1,0 +1,38 @@
+table, .table-request, .table-request__body{
+  width: 100%;
+}
+.table{
+  width: 100%;
+}
+.table-request table {
+
+  table-layout: fixed;
+  border: none;
+}
+.table-request__body{
+  height: 140px;
+  overflow-x: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.table-request__button{
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+.table-request__box{
+  display: flex;
+  align-items: center;
+  margin: 0 12px 0 12px;
+  background-color: rgba(223, 231, 255, 1);
+  border-radius: 8px;
+  padding: 16px 12px 16px 12px;
+}
+.table-request__button:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+th{
+
+}

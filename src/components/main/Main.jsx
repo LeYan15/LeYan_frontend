@@ -1,6 +1,6 @@
 import { useState } from "react";
 import TableSale from "../TableSale/TableSale.jsx";
-import TableRequest from "../TableHeader/TableRequest.jsx";
+import TableRequest from "../TableRequest/TableRequest.jsx";
 import Forecast from "../forecast/Forecast";
 // import ForecastQuality from "../forecastQuality/forecastQuality";
 
@@ -68,7 +68,7 @@ function Main () {
     import request from './../../images/Frame 633.svg'
     import graph from './../../images/Frame 634.svg'
     import TableSale from "../TableSale/TableSale.jsx";
-    import TableRequest from "../TableHeader/TableRequest.jsx";
+    import TableRequest from "../TableRequest/TableRequest.jsx";
     import './main.css'
     function Main () {
 

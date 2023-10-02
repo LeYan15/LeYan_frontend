@@ -4,62 +4,69 @@ import down from "../../images/chevron-down.svg";
 
 function TableRequest () {
   return (
-      <section >
-        <table className='table'>
+      <section className='table'>
+        <table className='table-request'>
           <thead>
           <tr>
-            <th><div className='table__box'>ТК<button className='table__button'>
+            <th>
+              <input id="html" type="checkbox"/>
+            </th>
+            <th><div className='table-request__box'>ТК<button className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
             </button></div></th>
-            <th><div className='table__box'>Группа товаров<button className='table__button'>
+            <th><div className='table-request__box'>Группа товаров<button className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
             </button></div></th>
-            <th><div className='table__box'>Категория<button className='table__button'>
+            <th><div className='table-request__box'>Категория<button className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
             </button></div></th>
-            <th><div className='table__box'>Подкатегория<button className='table__button'>
+            <th><div className='table-request__box'>Подкатегория<button className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
             </button></div></th>
-            <th><div className='table__box'>Наименование<button className='table__button'>
+            <th><div className='table-request__box'>Наименование<button className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
             </button></div></th>
-            <th><div className='table__box'>Неделя<button className='table__button'>
+            <th><div className='table-request__box'>Неделя<button className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
             </button></div></th>
-            <th><div className='table__box'>Продажи Факт<button className='table__button'>
+            <th><div className='table-request__box'>Продажи Факт<button className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
             </button></div></th>
-            <th><div className='table__box'>Прогноз<button className='table__button'>
+            <th><div className='table-request__box'>Прогноз<button className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
             </button></div></th>
-            <th><div className='table__box'>Разница<button className='table__button'>
+            <th><div className='table-request__box'>Разница<button className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
             </button></div></th>
-            <th><div className='table__box'>Качество прогноза
-              по WAPE  <button className='table__button'>
+            <th><div className='table-request__box'>WAPE  <button className='table-request__button'>
                 <img className='' src={down} alt="альтернативный текст"/>
 
               </button></div></th>
           </tr>
           </thead>
-          <tbody>
-<TableRequestRow/>
-<TableRequestRow/>
-<TableRequestRow/>
-<TableRequestRow/>
-<TableRequestRow/>
 
+          <tbody className='table-request__body'>
+<TableRequestRow/>
+<TableRequestRow/>
+<TableRequestRow/>
+<TableRequestRow/>
+<TableRequestRow/>
           </tbody>
-        </table>
+            </table>
+
+        <div className='table__buttons'>
+          <button className='table__button-prediction'>Прогноз</button>
+          <button className='table__button-save'>Сохранить</button>
+        </div>
       </section>
   )
 }
