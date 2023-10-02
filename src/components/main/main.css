@@ -9,22 +9,22 @@
 .main__sort {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 80px;
 }
 .main__sortCity, .main__sortTk {
-    width: 15.85%;
-    margin-right: 27px;
-    padding: 10px 14px;
-    border-radius: 8px;
-    border: 1px solid #D0D5DD;
+    width: calc(284px - 24px - 2px);
+    margin-right: 24px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: 1px solid #bbb;
     background: #FFF;
-    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
 .main__sortCitySelect, .main__sortTkSelect {
     width: 100%;
     border: none;
     margin: 0;
-    color: #667085;
+    color: #000;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -50,10 +50,10 @@
 .main__sortMemorizeIcon{
     display: block;
     content: '';
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     border-radius: 4px;
-    border: 1px solid #D0D5DD;
+    border: 1px solid #bbb;
 }
 .main__sortMemorizeCheckbox:checked+.main__sortMemorizeIcon {
     background-image: url('./../../public/checkboxIcon.svg');
@@ -62,22 +62,46 @@
     background-position: center;
     background-size: contain;
 }
-.main__sortMemorizetext {
+.main__sortMemorizeText {
     margin: 0;
-    color: #667085;
+    color: #000;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
 }
 .main__option_hidden {
     display: none;
 }
+.main__sortFindId {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: calc(320px - 24px -2px);
+    padding: 8px 12px;
+    min-height: calc(42px - 16px -2px);
+    margin: 0 0 0 auto;
+    border-radius: 12px;
+    border: 1px solid #BBB;
+}
+.main__sortFindIdInput {
+    width: 100%;
+    height: 20px;
+    padding: 0;
+    border: none;
+}
+.main__sortFindIdInput:focus {
+    outline: none;
+}
+/* .main__sortFindIdIcon {
+
+} */
 .main__menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 76px;
     padding: 0;
     list-style-type: none;
 }
@@ -85,21 +109,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 321px;
+    /* width: 321px; */
     border: none;
-}
-.main__menuPoint_active {
-    border-bottom: 1px solid #000;
 }
 .main__menuButton {
     width: 100%;
     padding: 5px;
     border: none;
     background-color: #ffffff;
-    color: #2B2D33;
+    color: #484848;
+    /* color: green; */
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.main__menuButton_active {
+    border-bottom: 2px solid #FFBA00;
+    color:  #000;
+    /* color: red; */
 }

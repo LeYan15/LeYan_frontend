@@ -1,37 +1,59 @@
 .auth__form {
     max-width: 292px;
     margin: 0 auto;
-    margin-top: 221px;
+    margin-top: 270px;
     display: flex;
     flex-direction: column;
     gap: 36px;
 }
 .auth__heading {
     margin: 0;
-    color: #545454;
+    margin-bottom: 16px;
+    color: #000;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 28px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
+    font-weight: 700;
+    line-height: 32px;
 }
 .auth__text {
     margin: 0;
-    margin-bottom: 10px;
-    color: #000000;
-    font-family: Roboto;
+    margin-bottom: 8px;
+    color: #484848;
+    font-family: Inter;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
 .auth__email, .auth__password {
     width: calc(100% - 24px - 2px);
-    height: calc(40px - 10px - 2px);
-    padding: 10px 12px;
-    border-radius: 10px;
-    border: 1px solid #AFACAB;
+    height: calc(52px - 32px - 2px);
+    padding: 16px 12px;
+    border-radius: 16px;
+    border: 1px solid #BBB;
     background: #F4F4F4;
+}
+.auth__email:focus, .auth__password:focus {
+    outline: none;
+}
+.auth__email:invalid, .auth__password:invalid {
+    border: 1px solid #FF3B30;
+}
+/* .auth__inputError {
+    border: 1px solid #FF3B30;
+} */
+.auth__inputErrorText {
+    width: 100%;
+    min-height: 16px;
+    margin: 0;
+    margin-top: 4px;
+    color: #FF3B30;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
 }
 /* .auth__password {
     border-radius: 10px;
@@ -39,10 +61,14 @@
     background: #F4F4F4;
 } */
 .auth__buttonInput {
-    height: 62px;
-    color: #000000;
+    max-width: 176px;
+    border-radius: 24px;
+    border: none;
+    background: #003D96;
+    height: 44px;
+    color: #FFF;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 20px;

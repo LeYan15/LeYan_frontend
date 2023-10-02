@@ -7,13 +7,13 @@ import NoRoute from '../noRoute/NoRoute'
 import Header from '../header/Header';
 import Main from '../main/Main';
 import Auth from '../auth/Auth';
-import TableSale from "../TableSale/TableSale.jsx";
+// import TableSale from "../TableSale/TableSale.jsx";
 
 function App() {
   const navigate =useNavigate();
 
   const { loggedIn } = useSelector((state)=>state.auth);
-  console.log(loggedIn);
+  // console.log(loggedIn);
 
   useEffect(()=>{
     loggedIn ? navigate('/') : navigate('/auth')

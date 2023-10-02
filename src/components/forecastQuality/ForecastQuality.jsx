@@ -3,7 +3,7 @@ function ForecastQuality () {
 
     return (
       <section className='forecastQuality'>
-        <p>2</p>
+        <p>здесь должна быть табличка</p>
       </section>
     )
   }
