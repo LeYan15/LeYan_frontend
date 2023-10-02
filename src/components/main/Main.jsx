@@ -5,6 +5,7 @@ import TableRequest from "../TableHeader/TableRequest.jsx";
 import Find from './Find.jsx'
 import ForecastQuality from "../forecastQuality/forecastQuality";
 
+
 function Main () {
   const headingPage = ['Прогноз продаж ', 'Качество прогноза спроса', 'График прогноза спроса']
   const [numberPage, setNumberPage] = useState(1);
@@ -88,7 +89,7 @@ function Main () {
     import request from './../../images/Frame 633.svg'
     import graph from './../../images/Frame 634.svg'
     import TableSale from "../TableSale/TableSale.jsx";
-    import TableRequest from "../TableHeader/TableRequest.jsx";
+    import TableRequest from "../TableRequest/TableRequest.jsx";
     import './main.css'
     function Main () {
 

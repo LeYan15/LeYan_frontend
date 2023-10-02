@@ -1,20 +1,63 @@
 th, td {
   border: none;
-  padding: 10px;
 }
 th{
-  background-color: rgba(229, 229, 229, 1);
 }
+
 .table__button{
   border: none;
   outline: none;
   background-color: inherit;
 }
+img{
+  display: flex;
+  align-items: center;
+}
 .table__box{
   display: flex;
-  align-items: center
+  align-items: center;
+  background-color: rgba(223, 231, 255, 1);
+  border-radius: 8px;
+  padding: 16px 12px 16px 12px;
+  margin: 4px;
 }
 .table__button:hover{
   opacity: 0.5;
   cursor: pointer;
+}
+.table__number{
+  background-color: rgba(223, 231, 255, 1);
+  border-radius: 8px;
+  margin: 4px;
+  padding: 4px 12px 4px 12px;
+}
+.table__date {
+font-size: 12px;
+  font-weight: normal;
+}
+.table__button-prediction{
+padding: 12px 64px 12px 64px;
+border-radius: 24px;
+  background-color: rgba(0, 61, 150, 1);
+  margin: 4px;
+  color: white;
+  border: none;
+  outline: none;
+}
+.table__button-save{
+  padding: 12px 64px 12px 64px;
+  border-radius: 24px;
+  background-color: rgba(255, 186, 0, 1);
+  margin: 4px;
+  color: white;
+  border: none;
+outline: none;
+}
+.table__button-save:hover, .table__button-prediction:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.table__buttons{
+  display: flex;
+  justify-content: flex-end
 }

@@ -1,50 +1,138 @@
-//import {useNavigate} from "react-router-dom";
 import './TableSale.css'
 import TableSaleRow from "../TableSaleRow/TableSaleRow.jsx";
 import down from "../../images/chevron-down.svg";
 
-function TableSale () {
+function TableSale() {
   return (
-    <section >
-      <table className='table'>
+    <section className="table">
+      <table className='table__table'>
         <thead>
         <tr>
-          <th><div className='table__box'>ТК<button className='table__button'>
-            <img className='' src={down} alt="альтернативный текст"/>
+          <th>
+          <input id="html" type="checkbox"/>
+          </th>
+            <th>
+            <div className='table__box'>ТК
+              <button className='table__button'>
+                <img className='' src={down} alt="альтернативный текст"/>
 
-          </button></div></th>
-          <th><div className='table__box'>Группа товаров<button className='table__button'>
-            <img className='' src={down} alt="альтернативный текст"/>
+              </button>
+            </div>
+          </th>
+          <th>
+            <div className='table__box'>Группа товаров
+              <button className='table__button'>
+                <img className='' src={down} alt="альтернативный текст"/>
 
-          </button></div></th>
-          <th><div className='table__box'>Категория<button className='table__button'>
-            <img className='' src={down} alt="альтернативный текст"/>
+              </button>
+            </div>
+          </th>
+          <th>
+            <div className='table__box'>Категория
+              <button className='table__button'>
+                <img className='' src={down} alt="альтернативный текст"/>
 
-          </button></div></th>
-          <th><div className='table__box'>Подкатегори<button className='table__button'>
-            <img className='' src={down} alt="альтернативный текст"/>
+              </button>
+            </div>
+          </th>
+          <th>
+            <div className='table__box'>Подкатегория
+              <button className='table__button'>
+                <img className='' src={down} alt="альтернативный текст"/>
 
-          </button></div>я</th>
-          <th><div className='table__box'>Наименование<button className='table__button'>
-            <img className='' src={down} alt="альтернативный текст"/>
+              </button>
+            </div>
 
-          </button></div></th>
-          <th><div className='table__box'>Ед. измерения<button className='table__button'>
-            <img className='' src={down} alt="альтернативный текст"/>
+          </th>
+          <th>
+            <div className='table__box'>Наименование
+              <button className='table__button'>
+                <img className='' src={down} alt="альтернативный текст"/>
 
-          </button></div></th>
+              </button>
+            </div>
+          </th>
+          <th>
+            <div className='table__box'>Ед. измерения
+              <button className='table__button'>
+                <img className='' src={down} alt="альтернативный текст"/>
+
+              </button>
+            </div>
+          </th>
+
+          <th>
+            <div className='table__number'>1</div>
+            <div  className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>2</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>3</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>4</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>5</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>6</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>7</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>8</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>9</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>10</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>11</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>12</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>13</div>
+            <div className='table__date'>25.10</div>
+          </th>
+          <th>
+            <div className='table__number'>14</div>
+            <div className='table__date'>25.10</div>
+          </th>
         </tr>
         </thead>
         <tbody>
-       <TableSaleRow/>
-       <TableSaleRow/>
-       <TableSaleRow/>
-       <TableSaleRow/>
-       <TableSaleRow/>
+        <TableSaleRow/>
+        <TableSaleRow/>
+        <TableSaleRow/>
+        <TableSaleRow/>
 
 
         </tbody>
+
       </table>
+      <div className='table__buttons'>
+      <button className='table__button-prediction'>Прогноз</button>
+      <button className='table__button-save'>Сохранить</button>
+      </div>
     </section>
   )
 }
