@@ -1,6 +1,6 @@
 import { useState } from "react";
 import TableSale from "../TableSale/TableSale.jsx";
-import TableRequest from "../TableHeader/TableRequest.jsx";
+import TableRequest from "../TableRequest/TableRequest.jsx";
 // import Forecast from "../forecast/Forecast";
 import Find from './Find.jsx'
 import ForecastQuality from "../forecastQuality/forecastQuality";
