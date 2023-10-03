@@ -11,56 +11,64 @@ function TableRequest () {
             <th>
               <input id="html" type="checkbox"/>
             </th>
-            <th><div className='table-request__box'>ТК<button className='table-request__button'>
+            <th><div className='table-request__box'>ТК<select  className='table-request__button'>
+
+              <option> <img className='' src={down} alt="альтернативный текст"/></option>
+              <option value="value1" ></option>
+            </select ></div></th>
+            <th><div className='table-request__box'>Группа товаров<select className='table-request__button'>
+              <img className='' src={down} alt="альтернативный текст"/>
+              <option value="value1" ></option>
+            </select></div></th>
+            <th><div className='table-request__box'>Категория<select className='table-request__button'>
+              <img className='' src={down} alt="альтернативный текст"/>
+              <option value="value1" ></option>
+            </select></div></th>
+            <th><div className='table-request__box'>Подкатегория<select className='table-request__button'>
+              <img className='' src={down} alt="альтернативный текст"/>
+              <option value="value1" ></option>
+            </select></div></th>
+            <th><div className='table-request__box'>Наименование<select className='table-request__button'>
+              <img className='' src={down} alt="альтернативный текст"/>
+              <option value="value1" ></option>
+            </select></div></th>
+            <th><div className='table-request__box'>Неделя<select className='table-request__button'>
+              <img className='' src={down} alt="альтернативный текст"/>
+              <option value="value1" ></option>
+            </select></div></th>
+            <th><div className='table-request__box'>Продажи Факт<select className='table-request__button'>
+              <img className='' src={down} alt="альтернативный текст"/>
+              <option value="value1" ></option>
+            </select></div></th>
+            <th><div className='table-request__box'>Прогноз<select className='table-request__button'>
+              <img className='' src={down} alt="альтернативный текст"/>
+              <option value="value1" ></option>
+            </select></div></th>
+            <th><div className='table-request__box'>Разница<select className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
 
-            </button></div></th>
-            <th><div className='table-request__box'>Группа товаров<button className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-
-            </button></div></th>
-            <th><div className='table-request__box'>Категория<button className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-
-            </button></div></th>
-            <th><div className='table-request__box'>Подкатегория<button className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-
-            </button></div></th>
-            <th><div className='table-request__box'>Наименование<button className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-
-            </button></div></th>
-            <th><div className='table-request__box'>Неделя<button className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-
-            </button></div></th>
-            <th><div className='table-request__box'>Продажи Факт<button className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-
-            </button></div></th>
-            <th><div className='table-request__box'>Прогноз<button className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-
-            </button></div></th>
-            <th><div className='table-request__box'>Разница<button className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-
-            </button></div></th>
-            <th><div className='table-request__box'>WAPE  <button className='table-request__button'>
+            </select></div></th>
+            <th><div className='table-request__box'>WAPE  <select className='table-request__button'>
                 <img className='' src={down} alt="альтернативный текст"/>
 
-              </button></div></th>
+              </select></div></th>
           </tr>
           </thead>
 
-          <tbody className='table-request__body'>
+          <tbody >
+
+<TableRequestRow/>
+<TableRequestRow/>
+<TableRequestRow/>
+<TableRequestRow/>
+<TableRequestRow/>
 <TableRequestRow/>
 <TableRequestRow/>
 <TableRequestRow/>
 <TableRequestRow/>
 <TableRequestRow/>
           </tbody>
+
             </table>
 
         <div className='table__buttons'>

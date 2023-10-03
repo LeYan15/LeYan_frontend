@@ -13,51 +13,52 @@ function TableSale() {
           </th>
             <th>
             <div className='table__box'>ТК
-              <button className='table__button'>
+              <select className='table__button'>
                 <img className='' src={down} alt="альтернативный текст"/>
-
-              </button>
+                <option value="value1" ></option>
+              </select>
             </div>
           </th>
           <th>
             <div className='table__box'>Группа товаров
-              <button className='table__button'>
+              <select className='table__button'>
                 <img className='' src={down} alt="альтернативный текст"/>
-
-              </button>
+                <option value="value1" ></option>
+              </select>
             </div>
           </th>
           <th>
             <div className='table__box'>Категория
-              <button className='table__button'>
+              <select className='table__button'>
                 <img className='' src={down} alt="альтернативный текст"/>
-
-              </button>
+                <option value="value1" ></option>
+              </select>
             </div>
           </th>
           <th>
             <div className='table__box'>Подкатегория
-              <button className='table__button'>
+              <select className='table__button'>
                 <img className='' src={down} alt="альтернативный текст"/>
-
-              </button>
+                <option value="value1" ></option>
+              </select>
             </div>
 
           </th>
           <th>
             <div className='table__box'>Наименование
-              <button className='table__button'>
+              <select className='table__button'>
                 <img className='' src={down} alt="альтернативный текст"/>
-
-              </button>
+                <option value="value1" ></option>
+              </select>
             </div>
           </th>
           <th>
             <div className='table__box'>Ед. измерения
-              <button className='table__button'>
-                <img className='' src={down} alt="альтернативный текст"/>
+              <select className='table__button'>
 
-              </button>
+                <option value="value1" ></option>
+
+              </select>
             </div>
           </th>
 
