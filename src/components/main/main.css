@@ -101,6 +101,8 @@
 .main__menu {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 20px;
     gap: 76px;
     padding: 0;
     list-style-type: none;
@@ -109,7 +111,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 321px; */
     border: none;
 }
 .main__menuButton {
@@ -118,7 +119,6 @@
     border: none;
     background-color: #ffffff;
     color: #484848;
-    /* color: green; */
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -128,5 +128,4 @@
 .main__menuButton_active {
     border-bottom: 2px solid #FFBA00;
     color:  #000;
-    /* color: red; */
 }
