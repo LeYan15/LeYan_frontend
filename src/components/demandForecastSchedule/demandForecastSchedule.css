@@ -1,11 +1,18 @@
 .demandForecastSchedule {
+    display: flex;
+    justify-content: space-between;
     /* outline: 1px blue solid; */
 }
-.demandForecastSchedule__list {
+.demandForecastSchedule__sort {
+    margin: 0 0 51px;
+}
+.demandForecastSchedule__sortList {
     display: flex;
     gap: 12px;
     list-style: none;
     padding: 0;
+    margin:0;
+    margin-bottom: 16px;
 }
 .demandForecastSchedule__sortProducts {
     padding: 12px;
@@ -31,7 +38,7 @@
 .demandForecastSchedule__hashtag {
     margin-right: 12px;
     padding: 8px 16px;
-    border: none;
+    /* border: none; */
     border-radius: 8px;
     background: #1E60C0;
     color: #FFF;
@@ -40,4 +47,44 @@
     font-style: normal;
     font-weight: 600;
     line-height: 12px;
+}
+.demandForecastSchedule__sortTime {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.demandForecastSchedule__sortTimeButtons {
+    display: flex;
+    gap: 20px;
+}
+.demandForecastSchedule__sortTimeButton {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 16px;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.demandForecastSchedule__sortTimeButton_active {
+    background: #FF7500;
+    color: #fff;
+}
+.demandForecastSchedule__legendList {
+    align-self: flex-end;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.demandForecastSchedule__legendPoint {
+    display: flex;
+    gap: 10px;
 }

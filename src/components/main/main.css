@@ -82,7 +82,7 @@
     width: calc(320px - 24px -2px);
     padding: 8px 12px;
     min-height: calc(42px - 16px -2px);
-    margin: 0 0 0 auto;
+    /* margin: 0 0 0 auto; */
     border-radius: 12px;
     border: 1px solid #BBB;
 }

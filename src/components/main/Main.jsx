@@ -35,7 +35,7 @@ function Main () {
             <option value="city2">Город2</option>
           </select>
         </label>
-        <label className='main__sortTk'>
+        {/* <label className='main__sortTk'>
           <select className='main__sortTkSelect'>
             <option className='main__option_hidden' value="">ТК</option>
             <option value="tk1">TK1</option>
@@ -46,12 +46,10 @@ function Main () {
           <input className='main__sortMemorizeCheckbox' type='checkbox'/>
           <div className='main__sortMemorizeIcon'></div>
           <p className='main__sortMemorizeText'>Запомнить</p>
-        </label>
+        </label> */}
         <label className='main__sortFindId'>
           <input className='main__sortFindIdInput' type='number' placeholder="Введите ID товара "/>
           <Find className='main__sortFindIdIcon'/>
-          {/* <div className='main__sortMemorizeIcon'></div>
-          <p className='main__sortMemorizetext'>Запомнить</p> */}
         </label>
       </div>
       <nav>
