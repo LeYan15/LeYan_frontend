@@ -1,0 +1,43 @@
+.demandForecastSchedule {
+    /* outline: 1px blue solid; */
+}
+.demandForecastSchedule__list {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+}
+.demandForecastSchedule__sortProducts {
+    padding: 12px;
+    border-radius: 8px;
+    background: #DFE7FF;
+}
+.demandForecastSchedule__sortProductsSelect {
+    border: none;
+    background: #DFE7FF;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.demandForecastSchedule__sortProductsSelect {
+    outline: none;
+}
+.demandForecastSchedule__option_hidden {
+    display: none;
+}
+.demandForecastSchedule__hashtag {
+    margin-right: 12px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #1E60C0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+}

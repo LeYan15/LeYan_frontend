@@ -6,13 +6,9 @@
     background-color: #003D96;
     font-family: Inter;
 }
-.header__logo {
-    /* margin: 0;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; */
-}
+/* .header__logo {
+
+} */
 .header__content {
     display: flex;
     align-items: center;

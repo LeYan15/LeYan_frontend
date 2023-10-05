@@ -2,8 +2,9 @@ import { useState } from "react";
 import TableSale from "../TableSale/TableSale.jsx";
 import TableRequest from "../TableRequest/TableRequest.jsx";
 // import Forecast from "../forecast/Forecast";
-import Find from './Find.jsx'
-import ForecastQuality from "../forecastQuality/ForecastQuality.jsx"
+import Find from './Find.jsx';
+import DemandForecastSchedule from "../demandForecastSchedule/DemandForecastSchedule.jsx";
+// import ForecastQuality from "../forecastQuality/ForecastQuality.jsx"
 
 
 function Main () {
@@ -17,9 +18,9 @@ function Main () {
       case 2:
         return <TableRequest/>
       case 3:
-        return <ForecastQuality/>
+        return <DemandForecastSchedule/>
       default:
-        return <ForecastQuality/>
+        return <TableSale/>
     }
   }
 
