@@ -13,6 +13,7 @@ function App() {
   const navigate =useNavigate();
 
   const { loggedIn } = useSelector((state)=>state.auth);
+  // console.log(loggedIn);
 
   useEffect(()=>{
     loggedIn ? navigate('/') : navigate('/auth')
@@ -20,18 +21,18 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/auth" element={ 
-        <>
-          <Header/>
-          <Auth/>
-        </>
-      }/>
       <Route path="/" element={ 
-        loggedIn && 
+        loggedIn &&
           <>
             <Header/>
             <Main/>
           </>
+      }/>
+     <Route path="/auth" element={
+        <>
+          <Header/>
+          <Auth/>
+        </>
       }/>
       <Route path="*" element={<NoRoute/>}/>
     </Routes>

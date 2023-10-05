@@ -79,7 +79,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    width: calc(320px - 24px -2px);
+    width: calc(320px - 24px - 2px);
     padding: 8px 12px;
     min-height: calc(42px - 16px -2px);
     /* margin: 0 0 0 auto; */

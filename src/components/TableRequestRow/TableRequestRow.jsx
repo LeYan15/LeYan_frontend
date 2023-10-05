@@ -2,11 +2,11 @@ function TableRequestRow () {
   return (
 
     <tr>
-      <td>
+      <td className='table__checkbox'>
         <input id="html" type="checkbox"/>
       </td>
-      <td>1</td>
-      <td>Товары собственного приозводства</td>
+      <td className='table__tk'>1</td>
+      <td className='table__group'>Товары собственного приозводства</td>
       <td>Пироги</td>
       <td>Пироги</td>
       <td>Пироги</td>
