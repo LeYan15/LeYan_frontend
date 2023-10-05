@@ -4,19 +4,18 @@ import down from "../../images/chevron-down.svg";
 
 function TableRequest () {
   return (
-      <section className='table'>
+      <div className='table'>
         <table className='table-request'>
           <thead>
           <tr>
-            <th>
-              <input id="html" type="checkbox"/>
+            <th className='table__checkbox'>
+              <input  id="html" type="checkbox"/>
             </th>
-            <th><div className='table-request__box'>ТК<select  className='table-request__button'>
-
+            <th className='table__tk'><div className='table-request__box'>ТК<select  className='table-request__button'>
               <option> <img className='' src={down} alt="альтернативный текст"/></option>
               <option value="value1" ></option>
             </select ></div></th>
-            <th><div className='table-request__box'>Группа товаров<select className='table-request__button'>
+            <th className='table__group'><div className='table-request__box'>Группа товаров<select className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
               <option value="value1" ></option>
             </select></div></th>
@@ -36,26 +35,16 @@ function TableRequest () {
               <img className='' src={down} alt="альтернативный текст"/>
               <option value="value1" ></option>
             </select></div></th>
-            <th><div className='table-request__box'>Продажи Факт<select className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-              <option value="value1" ></option>
-            </select></div></th>
-            <th><div className='table-request__box'>Прогноз<select className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-              <option value="value1" ></option>
-            </select></div></th>
-            <th><div className='table-request__box'>Разница<select className='table-request__button'>
-              <img className='' src={down} alt="альтернативный текст"/>
-
-            </select></div></th>
-            <th><div className='table-request__box'>WAPE  <select className='table-request__button'>
-                <img className='' src={down} alt="альтернативный текст"/>
-
-              </select></div></th>
+            <th><p className='table-request__box'>Продажи Факт</p></th>
+            <th><p className='table-request__box'>Прогноз</p></th>
+            <th><p className='table-request__box'>Разница</p></th>
+            <th><p className='table-request__box'>WAPE</p></th>
           </tr>
           </thead>
-
-          <tbody >
+        </table>
+        <div className="table-request__body">
+            <table>
+        <tbody >
 
 <TableRequestRow/>
 <TableRequestRow/>
@@ -69,13 +58,14 @@ function TableRequest () {
 <TableRequestRow/>
           </tbody>
 
-            </table>
 
+      </table>
+          </div>
         <div className='table__buttons'>
           <button className='table__button-prediction'>Прогноз</button>
           <button className='table__button-save'>Сохранить</button>
         </div>
-      </section>
+      </div>
   )
 }
 
