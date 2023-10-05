@@ -9,6 +9,11 @@ th{
   outline: none;
   background-color: inherit;
 }
+.table-sale table {
+
+  table-layout: fixed;
+  border: none;
+}
 img{
   display: flex;
   align-items: center;

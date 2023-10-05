@@ -6,12 +6,11 @@ table, .table-request, .table-request__body{
 
 }
 .table-request table {
-
   table-layout: fixed;
   border: none;
 }
 .table-request__body{
-  height: 140px;
+  height: 300px;
   overflow-x: auto;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -37,7 +36,7 @@ table, .table-request, .table-request__body{
   cursor: pointer;
 }
 .table-request__body {
-  height: 300px;
+  height: 400px;
   overflow-x: auto;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -53,20 +52,12 @@ table, .table-request, .table-request__body{
   text-align: center;
   border: none;
   white-space: nowrap;
-
-  /*padding: 10px 15px;
-
- background: #d8d8d8;
- */
   font-size: 14px;
-/*  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;*/
+
 }
 .table tbody td {
   text-align: left;
-  /*border-left: 1px solid inherit;
-  border-right: 1px solid inherit;*/
-/*  padding: 10px 15px;*/
+
   font-size: 14px;
   vertical-align: top;
   border-bottom: 1px solid rgba(189, 189, 189, 0.36);
@@ -79,14 +70,23 @@ table, .table-request, .table-request__body{
   width: 88px;
 }
 .table__group{
-  width: 180px
-;
+  width: 180px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .table__data{
   width: 44px;
 }
+.table__count{
+  width: 20px;
+}
 .table__dim{
   width: 120px;
+}
+.table__num{
+  width: 80px;
+  padding-left: 0;
+  padding-right: 0;
 }
 /* Стили для скролла */
 ::-webkit-scrollbar {
