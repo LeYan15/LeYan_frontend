@@ -19,26 +19,26 @@ function TableRequest () {
               <img className='' src={down} alt="альтернативный текст"/>
               <option value="value1" ></option>
             </select></div></th>
-            <th><div className='table-request__box'>Категория<select className='table-request__button'>
+            <th className='table__mean'><div className='table-request__box'>Категория<select className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
               <option value="value1" ></option>
             </select></div></th>
-            <th><div className='table-request__box'>Подкатегория<select className='table-request__button'>
+            <th className='table__mean'><div className='table-request__box'>Подкатегория<select className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
               <option value="value1" ></option>
             </select></div></th>
-            <th><div className='table-request__box'>Наименование<select className='table-request__button'>
+            <th className='table__mean'><div className='table-request__box'>Наименование<select className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
               <option value="value1" ></option>
             </select></div></th>
-            <th><div className='table-request__box'>Неделя<select className='table-request__button'>
+            <th className='table__140px'><div className='table-request__box'>Неделя<select className='table-request__button'>
               <img className='' src={down} alt="альтернативный текст"/>
               <option value="value1" ></option>
             </select></div></th>
-            <th><p className='table-request__box'>Продажи Факт</p></th>
-            <th><p className='table-request__box'>Прогноз</p></th>
-            <th><p className='table-request__box'>Разница</p></th>
-            <th><p className='table-request__box'>WAPE</p></th>
+            <th className='table__mean'><p className='table-request__box'>Продажи Факт</p></th>
+            <th className='table__140px'><p className='table-request__box'>Прогноз</p></th>
+            <th className='table__140px'><p className='table-request__box'>Разница</p></th>
+            <th className='table__140px'><p className='table-request__box'>WAPE</p></th>
           </tr>
           </thead>
         </table>

@@ -1,7 +1,7 @@
 th, td {
   border: none;
-}
-th{
+  margin: 0;
+  padding: 0;
 }
 
 .table__button{
@@ -23,8 +23,9 @@ img{
   align-items: center;
   background-color: rgba(223, 231, 255, 1);
   border-radius: 8px;
-  padding: 16px 12px 16px 12px;
-  margin: 4px;
+  padding: 16px 0 16px 10px;
+ margin: 0 8px 0 -4px;
+  justify-content: center
 }
 .table__button:hover{
   opacity: 0.5;
@@ -39,6 +40,8 @@ img{
 .table__date {
 font-size: 12px;
   font-weight: normal;
+  text-align: center;
+  margin-top: 10px;
 }
 .table__button-prediction{
 padding: 12px 64px 12px 64px;
