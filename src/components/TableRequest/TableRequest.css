@@ -17,6 +17,38 @@ max-width: 1824px;
   margin-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
+.table__multi{
+  color: black;
+  border: none;
+  z-index: 1000;
+  background-color: white;
+
+}
+.highlightOption {
+ background: inherit !important;
+ color: black !important;
+}
+.chip {
+  background: inherit !important;
+  color: black !important;
+}
+.multiSelectContainer {
+  position: sticky;
+  text-align: left;
+  width: 100%;
+  padding-top: -14px;
+  margin: -30px 0 0 -10px;
+}
+
+.table__multi_hidden{
+  visibility: hidden;
+}
+.table__dropbtn{
+  border: none;
+  background-color: inherit;
+  display: flex;
+  font-weight: 600;
+}
 .table-request__button{
   border: none;
   outline: none;
