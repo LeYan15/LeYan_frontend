@@ -27,7 +27,7 @@ const productsSlice = createSlice({
 
   },
   extraReducers: (builder) => {
-    builder.addCase(fetchProducts.pending, (state, action) => {
+    builder.addCase(fetchProducts.pending, (state) => {
       state.status = true;
       state.error = true;
     });
@@ -37,7 +37,7 @@ const productsSlice = createSlice({
       // state.products.push(...newProducts);
       state.products = action.payload;
     });
-    builder.addCase(fetchProducts.rejected, (state, action) => {
+    builder.addCase(fetchProducts.rejected, (state) => {
       state.error = false;
     });
   },
