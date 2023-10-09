@@ -37,29 +37,3 @@
   color: #512689;
   list-style-type: none;
 }
-
-/* @media screen and (max-width: 800px) {
-  .noRoute__heading {
-    margin-top: 408px;
-  }
-  .noRoute__link {
-    margin-top: 184px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .noRoute__heading {
-    margin-top: 329px;
-    font-size: 80px;
-    line-height: 97px;
-  }
-  .noRoute__text {
-    margin-top: 10px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-  .noRoute__link {
-    margin-top: 284px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-} */

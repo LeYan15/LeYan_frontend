@@ -1,23 +1,25 @@
 import { useEffect } from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 
 import './App.css';
 import NoRoute from '../noRoute/NoRoute'
 import Header from '../header/Header';
 import Main from '../main/Main';
 import Auth from '../auth/Auth';
-// import TableSale from "../TableSale/TableSale.jsx";
+import {fetchProducts} from '../../store/productsSlice'
 
 function App() {
   const navigate =useNavigate();
-
+  const dispatch = useDispatch();
   const { loggedIn } = useSelector((state)=>state.auth);
-  // console.log(loggedIn);
 
   useEffect(()=>{
     loggedIn ? navigate('/') : navigate('/auth')
   },[loggedIn])
+  useEffect(()=>{
+    dispatch(fetchProducts());
+  },[])
 
   return (
     <Routes>

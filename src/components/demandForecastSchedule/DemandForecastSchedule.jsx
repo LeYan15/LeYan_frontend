@@ -1,4 +1,3 @@
-// import down from "../../images/chevron-down.svg";
 import { useState } from "react";
 import OrangeSquare from "./OrangeSquare";
 import BlueSquare from "./BlueSquare";
